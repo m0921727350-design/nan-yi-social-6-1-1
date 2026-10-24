@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const main=document.querySelector('main'),notes=document.querySelector('#notes'),links=document.querySelector('#links'),review=document.querySelector('#review'),quiz=document.querySelector('#quiz');if(notes&&links)main.insertBefore(notes,links);if(review&&quiz)main.insertBefore(review,quiz)});
